@@ -38,7 +38,7 @@ async def calculate_energy_stats(request: Request):
         weighted_cost += proportion * costs_dollar_per_MWh.get(source.lower(), 0)
 
     # Get time-series of annual consumption
-    predicted_cost = df[(df['region'] == region) & (df['housing_type'] == housing_type)]['consumption'].values[0] * weighted_cost / 1000
+    predicted_cost = df[(df['region'] == region) & (df['housing_type'] == housing_type)]['consumption'].values * weighted_cost / 1000
 
     return {
         "weighted_average_cost": weighted_cost,

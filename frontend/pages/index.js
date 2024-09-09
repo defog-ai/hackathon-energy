@@ -60,7 +60,7 @@ export default function Home() {
 
     console.log(inputs)
 
-    const API_URL = "http://localhost:8000"
+    const API_URL = "http://0.0.0.0:8000"
     const body = {
       energy_sources: {
         solar: 0.5,
