@@ -18,16 +18,19 @@ export default function Home() {
       { source: 'other', percentage: 0.04 }
     ]},
     {scenario: 'Slow Tech Cooperation', sources: [
-      { source: 'solar', percentage: 0.3 },
-      { source: 'wind', percentage: 0.2 },
-      { source: 'hydro', percentage: 0.3 },
-      { source: 'nuclear', percentage: 0.2 }
+      { source: 'electricity imports', percentage: 0.6 },
+      { source: 'hydrogen', percentage: 0.09 },
+      { source: 'solar', percentage: 0.08 },
+      { source: 'geothermal', percentage: 0.07 }
+      { source: 'other', percentage: 0.02 },
     ]},
     {scenario: 'Tech-driven Fragmentation', sources: [
-      { source: 'solar', percentage: 0.1 },
-      { source: 'wind', percentage: 0.4 },
-      { source: 'hydro', percentage: 0.3 },
-      { source: 'nuclear', percentage: 0.2 }
+      { source: 'electricity imports', percentage: 0.24 },
+      { source: 'hydrogen', percentage: 0.51 },
+      { source: 'solar', percentage: 0.11 },
+      { source: 'geothermal', percentage: 0.01 },
+      { source: 'nuclear', percentage: 0.11 },
+      { source: 'other', percentage: 0.02 }
     ]},
   ];
 
