@@ -1,0 +1,433 @@
+,region,housing_type,consumption
+0,Outram,Public Housing,387.1136842105261
+1,Outram,5-room and Executive,410.40119047619055
+2,Outram,Landed Properties,-1578.7726315789332
+3,Outram,3-room,159.5828571428574
+4,Outram,Private Housing,227.8431578947384
+5,Outram,1-room / 2-room,210.07368421052615
+6,Outram,Overall,282.2568421052629
+7,Outram,Private Apartments and Condominiums,297.2284210526341
+8,Outram,4-room,422.28666666666686
+9,Yishun,Public Housing,334.121052631579
+10,Yishun,5-room and Executive,426.0797619047621
+11,Yishun,Landed Properties,1042.5189473684209
+12,Yishun,3-room,324.5504761904758
+13,Yishun,Private Housing,-56.35894736841874
+14,Yishun,1-room / 2-room,226.7189473684207
+15,Yishun,Overall,340.79894736842107
+16,Yishun,Private Apartments and Condominiums,-33.5526315789466
+17,Yishun,4-room,448.3742857142861
+18,Tampines,Public Housing,315.75473684210556
+19,Tampines,5-room and Executive,298.875
+20,Tampines,Landed Properties,928.2294736842105
+21,Tampines,3-room,269.8819047619048
+22,Tampines,Private Housing,176.02947368421155
+23,Tampines,1-room / 2-room,258.0663157894742
+24,Tampines,Overall,314.47157894736847
+25,Tampines,Private Apartments and Condominiums,161.35894736841874
+26,Tampines,4-room,307.3228571428572
+27,Southern Islands,Public Housing,-1.0
+28,Southern Islands,5-room and Executive,-1.0
+29,Southern Islands,Landed Properties,-1.0
+30,Southern Islands,3-room,-1.0
+31,Southern Islands,Private Housing,-1.0
+32,Southern Islands,1-room / 2-room,-1.0
+33,Southern Islands,Overall,-1.0
+34,Southern Islands,Private Apartments and Condominiums,2856.5489508083847
+35,Southern Islands,4-room,-1.0
+36,Choa Chu Kang,Public Housing,353.1105263157897
+37,Choa Chu Kang,5-room and Executive,465.4749999999999
+38,Choa Chu Kang,Landed Properties,665.3378947368401
+39,Choa Chu Kang,3-room,282.9371428571428
+40,Choa Chu Kang,Private Housing,269.2431578947362
+41,Choa Chu Kang,1-room / 2-room,272.2505263157891
+42,Choa Chu Kang,Overall,355.88526315789477
+43,Choa Chu Kang,Private Apartments and Condominiums,305.88526315789386
+44,Choa Chu Kang,4-room,429.0476190476188
+45,Jurong East,Public Housing,315.48736842105245
+46,Jurong East,5-room and Executive,351.21071428571304
+47,Jurong East,Landed Properties,-1.0
+48,Jurong East,3-room,288.25714285714275
+49,Jurong East,Private Housing,301.40315789473607
+50,Jurong East,1-room / 2-room,269.21999999999935
+51,Jurong East,Overall,321.88105263157877
+52,Jurong East,Private Apartments and Condominiums,301.40315789473607
+53,Jurong East,4-room,365.9552380952378
+54,Sungei Kadut,Public Housing,-1.0
+55,Sungei Kadut,5-room and Executive,-1.0
+56,Sungei Kadut,Landed Properties,1499.6757894736838
+57,Sungei Kadut,3-room,-1.0
+58,Sungei Kadut,Private Housing,1515.42105263158
+59,Sungei Kadut,1-room / 2-room,-1.0
+60,Sungei Kadut,Overall,1515.8336842105273
+61,Sungei Kadut,Private Apartments and Condominiums,-1.0
+62,Sungei Kadut,4-room,-1.0
+63,Overall,Public Housing,331.16526315789474
+64,Overall,5-room and Executive,374.7702380952378
+65,Overall,Landed Properties,1221.584210526316
+66,Overall,3-room,260.51619047619056
+67,Overall,Private Housing,248.79999999999927
+68,Overall,1-room / 2-room,229.11578947368434
+69,Overall,Overall,372.90105263157966
+70,Overall,Private Apartments and Condominiums,170.7884210526281
+71,Overall,4-room,394.48095238095266
+72,Singapore River,Public Housing,-1.0
+73,Singapore River,5-room and Executive,-1.0
+74,Singapore River,Landed Properties,-1.0
+75,Singapore River,3-room,-1.0
+76,Singapore River,Private Housing,513.9968421052617
+77,Singapore River,1-room / 2-room,-1.0
+78,Singapore River,Overall,516.6968421052625
+79,Singapore River,Private Apartments and Condominiums,514.0947368421039
+80,Singapore River,4-room,-1.0
+81,Novena,Public Housing,322.9663157894736
+82,Novena,5-room and Executive,267.14642857142644
+83,Novena,Landed Properties,1668.7442105263156
+84,Novena,3-room,278.6314285714286
+85,Novena,Private Housing,269.93684210526044
+86,Novena,1-room / 2-room,206.62000000000012
+87,Novena,Overall,418.98631578947425
+88,Novena,Private Apartments and Condominiums,213.9042105263179
+89,Novena,4-room,366.23619047619064
+90,Jurong West,Public Housing,384.8694736842106
+91,Jurong West,5-room and Executive,388.99880952380954
+92,Jurong West,Landed Properties,832.4978947368436
+93,Jurong West,3-room,327.7609523809524
+94,Jurong West,Private Housing,334.63473684210476
+95,Jurong West,1-room / 2-room,233.67684210526295
+96,Jurong West,Overall,402.1747368421054
+97,Jurong West,Private Apartments and Condominiums,393.3368421052637
+98,Jurong West,4-room,419.39523809523826
+99,Sengkang,Public Housing,339.28947368421086
+100,Sengkang,5-room and Executive,421.7750000000002
+101,Sengkang,Landed Properties,879.3031578947368
+102,Sengkang,3-room,319.61428571428587
+103,Sengkang,Private Housing,78.53473684210257
+104,Sengkang,1-room / 2-room,300.14387254901885
+105,Sengkang,Overall,330.59368421052613
+106,Sengkang,Private Apartments and Condominiums,136.98105263157777
+107,Sengkang,4-room,444.89999999999964
+108,Serangoon,Public Housing,317.7410526315789
+109,Serangoon,5-room and Executive,283.2154761904767
+110,Serangoon,Landed Properties,1193.2947368421046
+111,Serangoon,3-room,208.9780952380952
+112,Serangoon,Private Housing,599.3810526315774
+113,Serangoon,1-room / 2-room,230.4473684210525
+114,Serangoon,Overall,537.4105263157899
+115,Serangoon,Private Apartments and Condominiums,126.36842105262986
+116,Serangoon,4-room,305.96666666666715
+117,North East Region,Public Housing,327.2915789473682
+118,North East Region,5-room and Executive,412.26309523809505
+119,North East Region,Landed Properties,1047.750526315789
+120,North East Region,3-room,286.8028571428574
+121,North East Region,Private Housing,207.4810526315814
+122,North East Region,1-room / 2-room,227.37789473684234
+123,North East Region,Overall,348.72631578947403
+124,North East Region,Private Apartments and Condominiums,124.6863157894768
+125,North East Region,4-room,422.1180952380955
+126,Marine Parade,Public Housing,276.1831578947367
+127,Marine Parade,5-room and Executive,213.44166666666752
+128,Marine Parade,Landed Properties,1546.935789473684
+129,Marine Parade,3-room,218.5333333333333
+130,Marine Parade,Private Housing,456.7284210526341
+131,Marine Parade,1-room / 2-room,278.3094736842113
+132,Marine Parade,Overall,537.3747368421054
+133,Marine Parade,Private Apartments and Condominiums,347.2484210526327
+134,Marine Parade,4-room,252.68190476190466
+135,Tanglin,Public Housing,245.65999999999985
+136,Tanglin,5-room and Executive,382.75476190476184
+137,Tanglin,Landed Properties,4073.432631578944
+138,Tanglin,3-room,448.26380952380987
+139,Tanglin,Private Housing,488.28421052631893
+140,Tanglin,1-room / 2-room,-1.0
+141,Tanglin,Overall,497.5368421052626
+142,Tanglin,Private Apartments and Condominiums,245.8989473684196
+143,Tanglin,4-room,346.50476190476206
+144,Paya Lebar,Public Housing,-1.0
+145,Paya Lebar,5-room and Executive,-1.0
+146,Paya Lebar,Landed Properties,-1.0
+147,Paya Lebar,3-room,-1.0
+148,Paya Lebar,Private Housing,3272.2884210526245
+149,Paya Lebar,1-room / 2-room,-1.0
+150,Paya Lebar,Overall,3260.9536842105153
+151,Paya Lebar,Private Apartments and Condominiums,2567.483157894734
+152,Paya Lebar,4-room,-1.0
+153,Clementi,Public Housing,284.75473684210533
+154,Clementi,5-room and Executive,299.9880952380936
+155,Clementi,Landed Properties,1104.9326315789467
+156,Clementi,3-room,228.6314285714284
+157,Clementi,Private Housing,158.362105263157
+158,Clementi,1-room / 2-room,238.2673684210522
+159,Clementi,Overall,352.48105263157913
+160,Clementi,Private Apartments and Condominiums,213.8368421052619
+161,Clementi,4-room,247.46571428571497
+162,West Region,Public Housing,336.3936842105263
+163,West Region,5-room and Executive,392.3571428571431
+164,West Region,Landed Properties,919.3431578947384
+165,West Region,3-room,292.7838095238096
+166,West Region,Private Housing,284.7484210526309
+167,West Region,1-room / 2-room,231.08315789473681
+168,West Region,Overall,351.0642105263155
+169,West Region,Private Apartments and Condominiums,269.96947368421024
+170,West Region,4-room,413.62857142857183
+171,Bukit Panjang,Public Housing,332.23263157894735
+172,Bukit Panjang,5-room and Executive,380.39880952380963
+173,Bukit Panjang,Landed Properties,1162.507368421053
+174,Bukit Panjang,3-room,228.28952380952342
+175,Bukit Panjang,Private Housing,235.08105263157995
+176,Bukit Panjang,1-room / 2-room,263.8763736263736
+177,Bukit Panjang,Overall,344.2389473684211
+178,Bukit Panjang,Private Apartments and Condominiums,195.85894736842238
+179,Bukit Panjang,4-room,373.5866666666666
+180,Bukit Timah,Public Housing,271.80631578947396
+181,Bukit Timah,5-room and Executive,331.4357142857134
+182,Bukit Timah,Landed Properties,1466.9821052631578
+183,Bukit Timah,3-room,184.4266666666672
+184,Bukit Timah,Private Housing,589.8842105263175
+185,Bukit Timah,1-room / 2-room,472.244999999999
+186,Bukit Timah,Overall,588.2115789473683
+187,Bukit Timah,Private Apartments and Condominiums,298.3147368421014
+188,Bukit Timah,4-room,269.3057142857133
+189,Woodlands,Public Housing,390.4810526315789
+190,Woodlands,5-room and Executive,423.569047619048
+191,Woodlands,Landed Properties,-965.4610526315519
+192,Woodlands,3-room,380.3809523809523
+193,Woodlands,Private Housing,30.085263157896406
+194,Woodlands,1-room / 2-room,282.82526315789437
+195,Woodlands,Overall,388.07684210526304
+196,Woodlands,Private Apartments and Condominiums,350.61789473684166
+197,Woodlands,4-room,467.8571428571422
+198,Orchard,Public Housing,-1.0
+199,Orchard,5-room and Executive,-1.0
+200,Orchard,Landed Properties,-1.0
+201,Orchard,3-room,-1.0
+202,Orchard,Private Housing,302.0294736842043
+203,Orchard,1-room / 2-room,-1.0
+204,Orchard,Overall,302.0294736842043
+205,Orchard,Private Apartments and Condominiums,307.5526315789539
+206,Orchard,4-room,-1.0
+207,Hougang,Public Housing,303.07263157894795
+208,Hougang,5-room and Executive,371.69642857142844
+209,Hougang,Landed Properties,923.1421052631579
+210,Hougang,3-room,272.3980952380952
+211,Hougang,Private Housing,214.01684210526219
+212,Hougang,1-room / 2-room,224.72000000000025
+213,Hougang,Overall,349.45052631578983
+214,Hougang,Private Apartments and Condominiums,193.86842105262986
+215,Hougang,4-room,386.5485714285713
+216,Pasir Ris,Public Housing,405.7989473684215
+217,Pasir Ris,5-room and Executive,401.2738095238092
+218,Pasir Ris,Landed Properties,906.1115789473679
+219,Pasir Ris,3-room,419.7628571428577
+220,Pasir Ris,Private Housing,-29.572631578950677
+221,Pasir Ris,1-room / 2-room,102.23473684210512
+222,Pasir Ris,Overall,351.9652631578956
+223,Pasir Ris,Private Apartments and Condominiums,72.75368421052553
+224,Pasir Ris,4-room,404.31047619047615
+225,Kallang,Public Housing,306.0242105263158
+226,Kallang,5-room and Executive,289.0785714285703
+227,Kallang,Landed Properties,985.371578947369
+228,Kallang,3-room,207.88285714285666
+229,Kallang,Private Housing,130.24631578947447
+230,Kallang,1-room / 2-room,205.32736842105305
+231,Kallang,Overall,331.7084210526318
+232,Kallang,Private Apartments and Condominiums,68.58315789473636
+233,Kallang,4-room,346.8028571428572
+234,Pioneer,Public Housing,-1.0
+235,Pioneer,5-room and Executive,-1.0
+236,Pioneer,Landed Properties,-1.0
+237,Pioneer,3-room,-1.0
+238,Pioneer,Private Housing,-763.7476027397206
+239,Pioneer,1-room / 2-room,-1.0
+240,Pioneer,Overall,-1.0
+241,Pioneer,Private Apartments and Condominiums,-763.7476027397206
+242,Pioneer,4-room,-1.0
+243,Geylang,Public Housing,313.0336842105262
+244,Geylang,5-room and Executive,257.29523809523926
+245,Geylang,Landed Properties,925.3568421052623
+246,Geylang,3-room,221.59523809523807
+247,Geylang,Private Housing,48.95578947368631
+248,Geylang,1-room / 2-room,217.34421052631615
+249,Geylang,Overall,358.32315789473705
+250,Geylang,Private Apartments and Condominiums,16.126315789471846
+251,Geylang,4-room,180.18190476190466
+252,Punggol,Public Housing,302.096842105263
+253,Punggol,5-room and Executive,532.9285714285716
+254,Punggol,Landed Properties,1483.757894736842
+255,Punggol,3-room,412.0171428571439
+256,Punggol,Private Housing,-1599.052631578932
+257,Punggol,1-room / 2-room,301.0595604395594
+258,Punggol,Overall,307.5789473684208
+259,Punggol,Private Apartments and Condominiums,-1.0
+260,Punggol,4-room,525.8238095238103
+261,Bukit Merah,Public Housing,309.85157894736847
+262,Bukit Merah,5-room and Executive,269.5380952380947
+263,Bukit Merah,Landed Properties,911.7863157894753
+264,Bukit Merah,3-room,218.74000000000024
+265,Bukit Merah,Private Housing,203.39578947368136
+266,Bukit Merah,1-room / 2-room,225.65789473684163
+267,Bukit Merah,Overall,384.9873684210527
+268,Bukit Merah,Private Apartments and Condominiums,241.99684210526175
+269,Bukit Merah,4-room,355.67714285714294
+270,Sembawang,Public Housing,307.7778947368415
+271,Sembawang,5-room and Executive,349.1488095238092
+272,Sembawang,Landed Properties,1650.21263157895
+273,Sembawang,3-room,737.9466666666667
+274,Sembawang,Private Housing,435.09894736842034
+275,Sembawang,1-room / 2-room,305.4771428571439
+276,Sembawang,Overall,376.7568421052629
+277,Sembawang,Private Apartments and Condominiums,221.89999999999964
+278,Sembawang,4-room,569.9514285714286
+279,Toa Payoh,Public Housing,300.89052631578966
+280,Toa Payoh,5-room and Executive,308.197619047618
+281,Toa Payoh,Landed Properties,846.1989473684207
+282,Toa Payoh,3-room,198.2161904761906
+283,Toa Payoh,Private Housing,146.84842105263306
+284,Toa Payoh,1-room / 2-room,194.04736842105262
+285,Toa Payoh,Overall,345.11157894736834
+286,Toa Payoh,Private Apartments and Condominiums,54.32526315789437
+287,Toa Payoh,4-room,300.56190476190477
+288,Museum,Public Housing,-1.0
+289,Museum,5-room and Executive,-1.0
+290,Museum,Landed Properties,-1.0
+291,Museum,3-room,-1.0
+292,Museum,Private Housing,180.6547368421052
+293,Museum,1-room / 2-room,-1.0
+294,Museum,Overall,180.5747368421071
+295,Museum,Private Apartments and Condominiums,364.41157894736716
+296,Museum,4-room,-1.0
+297,River Valley,Public Housing,-1.0
+298,River Valley,5-room and Executive,-1.0
+299,River Valley,Landed Properties,1168.3894736842085
+300,River Valley,3-room,-1.0
+301,River Valley,Private Housing,260.2178947368375
+302,River Valley,1-room / 2-room,-1.0
+303,River Valley,Overall,261.35684210526233
+304,River Valley,Private Apartments and Condominiums,259.1073684210569
+305,River Valley,4-room,-1.0
+306,Mandai,Public Housing,-1.0
+307,Mandai,5-room and Executive,-1.0
+308,Mandai,Landed Properties,990.9336842105263
+309,Mandai,3-room,-1.0
+310,Mandai,Private Housing,658.4178947368421
+311,Mandai,1-room / 2-room,-1.0
+312,Mandai,Overall,658.12
+313,Mandai,Private Apartments and Condominiums,587.9126315789472
+314,Mandai,4-room,-1.0
+315,Bedok,Public Housing,303.32947368421037
+316,Bedok,5-room and Executive,293.770238095236
+317,Bedok,Landed Properties,1003.8905263157899
+318,Bedok,3-room,233.94285714285752
+319,Bedok,Private Housing,318.4652631578938
+320,Bedok,1-room / 2-room,203.5978947368426
+321,Bedok,Overall,385.35789473684235
+322,Bedok,Private Apartments and Condominiums,201.40526315789248
+323,Bedok,4-room,324.89333333333343
+324,Rochor,Public Housing,326.2031578947369
+325,Rochor,5-room and Executive,192.92142857142608
+326,Rochor,Landed Properties,1168.7947368421046
+327,Rochor,3-room,223.16571428571388
+328,Rochor,Private Housing,317.53894736841903
+329,Rochor,1-room / 2-room,296.58947368421013
+330,Rochor,Overall,448.5410526315789
+331,Rochor,Private Apartments and Condominiums,329.3989473684196
+332,Rochor,4-room,261.89238095238125
+333,Bukit Batok,Public Housing,278.3599999999997
+334,Bukit Batok,5-room and Executive,343.1071428571431
+335,Bukit Batok,Landed Properties,797.4768421052631
+336,Bukit Batok,3-room,349.6257142857139
+337,Bukit Batok,Private Housing,324.9042105263161
+338,Bukit Batok,1-room / 2-room,178.99052631578957
+339,Bukit Batok,Overall,284.81368421052684
+340,Bukit Batok,Private Apartments and Condominiums,253.0947368421057
+341,Bukit Batok,4-room,549.1828571428578
+342,Queenstown,Public Housing,295.9810526315788
+343,Queenstown,5-room and Executive,326.3952380952378
+344,Queenstown,Landed Properties,728.9578947368391
+345,Queenstown,3-room,122.79999999999927
+346,Queenstown,Private Housing,105.56315789473592
+347,Queenstown,1-room / 2-room,188.27368421052643
+348,Queenstown,Overall,293.09894736842125
+349,Queenstown,Private Apartments and Condominiums,102.8947368421068
+350,Queenstown,4-room,307.05142857142846
+351,Changi,Public Housing,456.2442105263153
+352,Changi,5-room and Executive,-1.0
+353,Changi,Landed Properties,991.3884210526303
+354,Changi,3-room,102.02857142857283
+355,Changi,Private Housing,406.85157894736767
+356,Changi,1-room / 2-room,242.0
+357,Changi,Overall,446.74000000000007
+358,Changi,Private Apartments and Condominiums,-1.0
+359,Changi,4-room,-1.0
+360,Ang Mo Kio,Public Housing,300.278947368421
+361,Ang Mo Kio,5-room and Executive,295.95238095238165
+362,Ang Mo Kio,Landed Properties,868.8694736842106
+363,Ang Mo Kio,3-room,269.30857142857127
+364,Ang Mo Kio,Private Housing,524.1336842105266
+365,Ang Mo Kio,1-room / 2-room,226.80421052631618
+366,Ang Mo Kio,Overall,364.12526315789466
+367,Ang Mo Kio,Private Apartments and Condominiums,367.1378947368412
+368,Ang Mo Kio,4-room,348.6933333333334
+369,Bishan,Public Housing,316.7852631578944
+370,Bishan,5-room and Executive,334.69047619047706
+371,Bishan,Landed Properties,869.5757894736844
+372,Bishan,3-room,190.42380952380972
+373,Bishan,Private Housing,344.46842105263204
+374,Bishan,1-room / 2-room,206.95894736842092
+375,Bishan,Overall,377.31368421052684
+376,Bishan,Private Apartments and Condominiums,249.3189473684215
+377,Bishan,4-room,313.8104761904765
+378,North Region,Public Housing,351.9852631578947
+379,North Region,5-room and Executive,405.29523809523744
+380,North Region,Landed Properties,987.5526315789484
+381,North Region,3-room,365.15999999999985
+382,North Region,Private Housing,124.2589473684202
+383,North Region,1-room / 2-room,270.1957894736843
+384,North Region,Overall,368.1399999999999
+385,North Region,Private Apartments and Condominiums,189.13999999999942
+386,North Region,4-room,473.1342857142854
+387,Central Region,Public Housing,305.4389473684208
+388,Central Region,5-room and Executive,293.5178571428587
+389,Central Region,Landed Properties,1583.8999999999996
+390,Central Region,3-room,198.14666666666653
+391,Central Region,Private Housing,277.3452631578948
+392,Central Region,1-room / 2-room,211.93157894736805
+393,Central Region,Overall,436.09157894736927
+394,Central Region,Private Apartments and Condominiums,193.61789473684257
+395,Central Region,4-room,306.04285714285743
+396,Seletar,Public Housing,-1.0
+397,Seletar,5-room and Executive,-1.0
+398,Seletar,Landed Properties,824.4768421052631
+399,Seletar,3-room,-1.0
+400,Seletar,Private Housing,865.0157894736842
+401,Seletar,1-room / 2-room,-1.0
+402,Seletar,Overall,945.9378947368418
+403,Seletar,Private Apartments and Condominiums,1564.1463157894686
+404,Seletar,4-room,-1.0
+405,Newton,Public Housing,-1.0
+406,Newton,5-room and Executive,-1.0
+407,Newton,Landed Properties,1229.6052631578932
+408,Newton,3-room,-1.0
+409,Newton,Private Housing,174.4494736842098
+410,Newton,1-room / 2-room,-1.0
+411,Newton,Overall,201.32842105263262
+412,Newton,Private Apartments and Condominiums,153.5084210526329
+413,Newton,4-room,-1.0
+414,East Region,Public Housing,329.8115789473677
+415,East Region,5-room and Executive,328.26309523809687
+416,East Region,Landed Properties,988.2768421052624
+417,East Region,3-room,250.0561904761903
+418,East Region,Private Housing,212.1852631578986
+419,East Region,1-room / 2-room,233.75368421052644
+420,East Region,Overall,356.6442105263168
+421,East Region,Private Apartments and Condominiums,169.22421052631762
+422,East Region,4-room,330.4209523809527
+423,Downtown,Public Housing,356.09578947368425
+424,Downtown,5-room and Executive,-1.0
+425,Downtown,Landed Properties,158.99157894737073
+426,Downtown,3-room,-1.0
+427,Downtown,Private Housing,341.6989473684225
+428,Downtown,1-room / 2-room,-1.0
+429,Downtown,Overall,603.185263157894
+430,Downtown,Private Apartments and Condominiums,351.94210526315874
+431,Downtown,4-room,288.2895238095243
