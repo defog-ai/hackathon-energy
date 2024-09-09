@@ -43,8 +43,8 @@ export default function Home() {
 
   const [inputs, setInputs] = useState({
     selectedEnergyMix: [{ source: '', percentage: '' }],
-    selectedHousingType: '',
-    selectedHousingArea: '',
+    selectedHousingType: '1-room',
+    selectedHousingArea: 'Bishan',
   });
   const [WACresult, setWACResult] = useState(0);
   const [predictedBill, setPredictedBill] = useState(0);
