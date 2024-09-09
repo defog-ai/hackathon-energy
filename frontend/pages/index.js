@@ -66,10 +66,10 @@ export default function Home() {
         solar: 0.5,
         lng: 0.5,
       },
-      housing_type: "Public housing",
-      region: "Outram",
-      // housing_type: inputs.selectedHousingType,
-      // region: inputs.selectedHousingArea,
+      // housing_type: "Public housing",
+      // region: "Outram",
+      housing_type: inputs.selectedHousingType,
+      region: inputs.selectedHousingArea,
     }
     const response = await fetch(API_URL + '/energy-calculation', {
       method: 'POST',
@@ -121,7 +121,7 @@ export default function Home() {
         <button className='bg-black text-white px-4 py-2 rounded-lg' type="submit">Submit</button>
       </form>
       
-      <p>{result}</p>
+      <p className='flex flex-col'>Weighted average cost: {result}</p>
       
 
     </div>
