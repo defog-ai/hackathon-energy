@@ -88,7 +88,7 @@ export default function Home() {
   // return the form with the input fields
  
   return (
-    <div className='m-8'>
+    <div className='m-8 gap-8'>
       <form onSubmit={handleSubmit}>
       {/* create a dropdown that shows the different energy mix scenario options and allows the user to select one. stores the selected option in the state variables*/}
         <div className='flex flex-col gap-2 pb-8'>
@@ -124,7 +124,8 @@ export default function Home() {
         <button className='bg-black text-white px-4 py-2 rounded-lg' type="submit">Submit</button>
       </form>
       
-      <div className='flex flex-col'>
+      <div className='flex flex-col pt-8'>
+        <p className='text-lg font-bold'>Results</p>
         <p>Weighted average cost based on your chosen energy scenario: {WACresult}</p>
         <p>Predicted annual energy bill of your household:{predictedBill} </p>
         </div>
