@@ -62,25 +62,23 @@ export default function Home() {
   // return the form with the input fields
  
   return (
-    <div className='flex flex-col gap-4 m-8'>
+    <div className='m-8'>
       <form onSubmit={handleSubmit}>
       {/* create a dropdown that shows the different energy mix scenario options and allows the user to select one. stores the selected option in the state variables*/}
-      <div className='flex flex-col gap-4'>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 pb-8'>
           <label className='text-xl font-bold'>Energy Mix Scenario:</label>
           {/* add a description of each of the energy mix scenarios based on the sources and their percentage */}
           <p>Global Tech Progress: electricity imports (37%), hydrogen (37%), geothermal (15%), other (4%)</p>
           <p>Slow Tech Cooperation: solar (30%), wind (20%), hydro (30%), nuclear (20%)</p>
           <p>Tech-driven Fragmentation: solar (10%), wind (40%), hydro (30%), nuclear (20%)</p>
-          <br />
           <select name="selectedEnergyMix" onChange={handleInputChange}>
             {predefinedEnergyMix.map((mix, index) => (
               <option key={index} value={mix.scenario}>{mix.scenario}</option>
             ))}
           </select>
         </div>
-      {/* create two more dropdowns that show options for housingtype and housing area. store the selected option in the state variables  */}
-        <div className='flex flex-col'></div>
+        {/* create two more dropdowns that show options for housingtype and housing area. store the selected option in the state variables  */}
+        <div className='flex flex-col gap-2 pb-8'>
           <label className='text-xl font-bold'>Housing Type:</label>
           <select name="selectedHousingType" onChange={handleInputChange}>
             {predefinedHousingTypes.map((type, index) => (
@@ -88,7 +86,7 @@ export default function Home() {
             ))}
           </select>
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 pb-8'>
           <label className='text-xl font-bold'>Housing Area:</label>
           <select name="selectedHousingArea" onChange={handleInputChange}>
             {predefinedHousingAreas.map((area, index) => (
@@ -97,8 +95,11 @@ export default function Home() {
           </select>
         </div>
         <br />
-        <button type="submit">Submit</button>
+        <button className='bg-black text-white px-4 py-2 rounded-lg' type="submit">Submit</button>
       </form>
+
+      
+
     </div>
   );
 }
