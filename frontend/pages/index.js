@@ -46,6 +46,7 @@ export default function Home() {
     selectedHousingType: '',
     selectedHousingArea: '',
   });
+  const [result, setResult] = useState(0);
 
   // create a function to handle the input changes
   const handleInputChange = (e) => {
@@ -54,9 +55,31 @@ export default function Home() {
   };
 
   // create a function to handle the form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(inputs);
+
+    console.log(inputs)
+
+    const API_URL = "http://localhost:8000"
+    const body = {
+      energy_sources: {
+        solar: 0.5,
+        lng: 0.5,
+      },
+      housing_type: "Public housing",
+      region: "Outram",
+      // housing_type: inputs.selectedHousingType,
+      // region: inputs.selectedHousingArea,
+    }
+    const response = await fetch(API_URL + '/energy-calculation', {
+      method: 'POST',
+      // headers: {
+      //   'Content-Type': 'application/json',
+      // },
+      body: JSON.stringify(body),
+    })
+    const result = await response.json()
+    setResult(result.weighted_average_cost)
   };
 
   // return the form with the input fields
@@ -97,7 +120,8 @@ export default function Home() {
         <br />
         <button className='bg-black text-white px-4 py-2 rounded-lg' type="submit">Submit</button>
       </form>
-
+      
+      <p>{result}</p>
       
 
     </div>
