@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 
 costs_dollar_per_MWh = {
@@ -13,6 +14,14 @@ costs_dollar_per_MWh = {
 
 # FastAPI app
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 df = pd.read_csv("usage_2050.csv", index_col=0)
 
 
