@@ -46,7 +46,8 @@ export default function Home() {
     selectedHousingType: '',
     selectedHousingArea: '',
   });
-  const [result, setResult] = useState(0);
+  const [WACresult, setWACResult] = useState(0);
+  const [predictedBill, setPredictedBill] = useState(0);
 
   // create a function to handle the input changes
   const handleInputChange = (e) => {
@@ -79,7 +80,9 @@ export default function Home() {
       body: JSON.stringify(body),
     })
     const result = await response.json()
-    setResult(result.weighted_average_cost)
+    setWACResult(result.weighted_average_cost)
+    setPredictedBill(result.predicted_annual_energy_bill)
+
   };
 
   // return the form with the input fields
@@ -121,7 +124,10 @@ export default function Home() {
         <button className='bg-black text-white px-4 py-2 rounded-lg' type="submit">Submit</button>
       </form>
       
-      <p className='flex flex-col'>Weighted average cost: {result}</p>
+      <div className='flex flex-col'>
+        <p>Weighted average cost based on your chosen energy scenario: {WACresult}</p>
+        <p>Predicted annual energy bill of your household:{predictedBill} </p>
+        </div>
       
 
     </div>
