@@ -81,7 +81,7 @@ export default function Home() {
     })
     const result = await response.json()
     setWACResult(result.weighted_average_cost)
-    setPredictedBill(result.predicted_annual_energy_bill)
+    setPredictedBill(result.annual_consumption)
 
   };
 
