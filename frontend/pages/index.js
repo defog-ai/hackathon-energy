@@ -21,7 +21,7 @@ export default function Home() {
       { source: 'electricity imports', percentage: 0.6 },
       { source: 'hydrogen', percentage: 0.09 },
       { source: 'solar', percentage: 0.08 },
-      { source: 'geothermal', percentage: 0.07 }
+      { source: 'geothermal', percentage: 0.07 },
       { source: 'other', percentage: 0.02 },
     ]},
     {scenario: 'Tech-driven Fragmentation', sources: [
